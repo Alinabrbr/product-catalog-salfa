@@ -1,0 +1,14 @@
+.products{
+  padding: 120px 0;
+}
+
+.products__list {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 370px);
+  gap: 45px 45px;
+  justify-content: center;
+}
