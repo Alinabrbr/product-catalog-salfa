@@ -1,7 +1,6 @@
 .footer {
   position: absolute;
   bottom: 0;
-  background-color: #000;
   width: 100%;
   z-index: 20;
   color: #fff;
@@ -22,7 +21,7 @@
 
 a:-webkit-any-link {
   text-decoration: none;
-  color: #FFA500;
+  color: #030001b4;
 }
 
 @media (max-width: 670px) {

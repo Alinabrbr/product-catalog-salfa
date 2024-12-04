@@ -1,6 +1,6 @@
 import styles from './products.module.css'
 import {TProduct, useAppSelector} from "../../utils/types/types";
-import {Card} from "../Card/card";
+import {Card} from "../../components/Card/card";
 import {productsArray} from "../../services/actions/actionsSelector";
 
 export const Products = () => {

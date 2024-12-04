@@ -1,10 +1,12 @@
 import React, {useEffect} from 'react';
 import './App.css';
-import {Footer} from "../components/Footer/footer";
-import {Header} from "../components/Header/header";
 import {useAppDispatch} from "../utils/types/types";
 import {getProducts} from "../services/reducers/productsSlice";
-import {Products} from "../components/Products/products";
+import {Products} from "../pages/products/products";
+import {Route, Routes} from "react-router-dom";
+import {Layout} from "../pages/layout/layout";
+import {NotFound} from "../pages/notFound/notFound";
+import {Main} from "../pages/main/main";
 
 
 function App() {
@@ -17,9 +19,34 @@ function App() {
 
   return (
     <div className="App">
-      <Header/>
-      <Products/>
-      <Footer/>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <Layout>
+              <Main />
+            </Layout>
+          }
+        />
+
+        <Route
+          path="/products"
+          element={
+            <Layout>
+              <Products />
+            </Layout>
+          }
+        />
+
+        <Route
+          path="*"
+          element={
+            <Layout header={true} footer={true}>
+              <NotFound />
+            </Layout>
+          }
+        />
+      </Routes>
     </div>
   );
 }
