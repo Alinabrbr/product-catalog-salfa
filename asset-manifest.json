@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "./static/css/main.98f98a6c.css",
-    "main.js": "./static/js/main.26fbf025.js",
-    "static/js/453.ed3810f9.chunk.js": "./static/js/453.ed3810f9.chunk.js",
-    "static/media/ice-cream.svg": "./static/media/ice-cream.7fdda970cf643e89137e.svg",
-    "static/media/Flavors-Regular.ttf": "./static/media/Flavors-Regular.c7873ceb7d842af4f520.ttf",
-    "static/media/icon-trash-dark.svg": "./static/media/icon-trash-dark.ff957149ddc630a77e22.svg",
-    "static/media/icon-trash-light.svg": "./static/media/icon-trash-light.bda07761795f281a7b28.svg",
-    "static/media/icon-favorite.svg": "./static/media/icon-favorite.87ed371465c7a6a1cd01.svg",
-    "index.html": "./index.html",
-    "static/media/icon-favorite-painted.svg": "./static/media/icon-favorite-painted.fe17a515669479b1e649.svg",
-    "main.98f98a6c.css.map": "./static/css/main.98f98a6c.css.map",
-    "main.26fbf025.js.map": "./static/js/main.26fbf025.js.map",
-    "453.ed3810f9.chunk.js.map": "./static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/product-catalog-salfa/static/css/main.a37c664f.css",
+    "main.js": "/product-catalog-salfa/static/js/main.28e588d7.js",
+    "static/js/453.ed3810f9.chunk.js": "/product-catalog-salfa/static/js/453.ed3810f9.chunk.js",
+    "static/media/ice-cream.svg": "/product-catalog-salfa/static/media/ice-cream.7fdda970cf643e89137e.svg",
+    "static/media/Flavors-Regular.ttf": "/product-catalog-salfa/static/media/Flavors-Regular.c7873ceb7d842af4f520.ttf",
+    "static/media/icon-trash-dark.svg": "/product-catalog-salfa/static/media/icon-trash-dark.ff957149ddc630a77e22.svg",
+    "static/media/icon-trash-light.svg": "/product-catalog-salfa/static/media/icon-trash-light.bda07761795f281a7b28.svg",
+    "static/media/icon-favorite.svg": "/product-catalog-salfa/static/media/icon-favorite.87ed371465c7a6a1cd01.svg",
+    "index.html": "/product-catalog-salfa/index.html",
+    "static/media/icon-favorite-painted.svg": "/product-catalog-salfa/static/media/icon-favorite-painted.fe17a515669479b1e649.svg",
+    "main.a37c664f.css.map": "/product-catalog-salfa/static/css/main.a37c664f.css.map",
+    "main.28e588d7.js.map": "/product-catalog-salfa/static/js/main.28e588d7.js.map",
+    "453.ed3810f9.chunk.js.map": "/product-catalog-salfa/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98f98a6c.css",
-    "static/js/main.26fbf025.js"
+    "static/css/main.a37c664f.css",
+    "static/js/main.28e588d7.js"
   ]
 }
