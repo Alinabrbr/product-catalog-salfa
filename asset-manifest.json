@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/product-catalog-salfa/static/css/main.575abdbc.css",
-    "main.js": "/product-catalog-salfa/static/js/main.8319d469.js",
-    "static/media/ice-cream.svg": "/product-catalog-salfa/static/media/ice-cream.7fdda970cf643e89137e.svg",
-    "static/media/Flavors-Regular.ttf": "/product-catalog-salfa/static/media/Flavors-Regular.c7873ceb7d842af4f520.ttf",
-    "static/media/icon-trash-dark.svg": "/product-catalog-salfa/static/media/icon-trash-dark.ff957149ddc630a77e22.svg",
-    "static/media/icon-trash-light.svg": "/product-catalog-salfa/static/media/icon-trash-light.bda07761795f281a7b28.svg",
-    "static/media/icon-favorite.svg": "/product-catalog-salfa/static/media/icon-favorite.87ed371465c7a6a1cd01.svg",
-    "index.html": "/product-catalog-salfa/index.html",
-    "static/media/icon-favorite-painted.svg": "/product-catalog-salfa/static/media/icon-favorite-painted.fe17a515669479b1e649.svg",
-    "main.575abdbc.css.map": "/product-catalog-salfa/static/css/main.575abdbc.css.map",
-    "main.8319d469.js.map": "/product-catalog-salfa/static/js/main.8319d469.js.map"
+    "main.css": "./static/css/main.8042e9a6.css",
+    "main.js": "./static/js/main.8319d469.js",
+    "static/media/ice-cream.svg": "./static/media/ice-cream.7fdda970cf643e89137e.svg",
+    "static/media/Flavors-Regular.ttf": "./static/media/Flavors-Regular.c7873ceb7d842af4f520.ttf",
+    "static/media/icon-trash-dark.svg": "./static/media/icon-trash-dark.ff957149ddc630a77e22.svg",
+    "static/media/icon-trash-light.svg": "./static/media/icon-trash-light.bda07761795f281a7b28.svg",
+    "static/media/icon-favorite.svg": "./static/media/icon-favorite.87ed371465c7a6a1cd01.svg",
+    "index.html": "./index.html",
+    "static/media/icon-favorite-painted.svg": "./static/media/icon-favorite-painted.fe17a515669479b1e649.svg",
+    "main.8042e9a6.css.map": "./static/css/main.8042e9a6.css.map",
+    "main.8319d469.js.map": "./static/js/main.8319d469.js.map"
   },
   "entrypoints": [
-    "static/css/main.575abdbc.css",
+    "static/css/main.8042e9a6.css",
     "static/js/main.8319d469.js"
   ]
 }
