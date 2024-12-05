@@ -1,10 +1,10 @@
 {
-  "name": "my-app",
+  "name": "product-catalog-salfa",
   "version": "1.0.0",
   "homepage": "./",
-  "description": "products-catalog-salfa",
+  "description": "product-catalog-salfa",
   "main": "index.js",
-  "private": true,
+  "author": "Alinabrbr",
   "dependencies": {
     "@reduxjs/toolkit": "^2.4.0",
     "@testing-library/jest-dom": "^5.17.0",
@@ -34,7 +34,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-},
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
