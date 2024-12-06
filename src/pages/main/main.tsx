@@ -14,8 +14,6 @@ export const Main = () => {
     <section className={styles.container}>
       <div className={styles.backgroundImage}>
       </div>
-      {/*<div className={styles.backgroundCircles}>*/}
-      {/*</div>*/}
       <button className={styles.button} onClick={handleClick}>
         Посмотреть каталог
         <img src={leftArrow} alt="стрелочка влево"/>

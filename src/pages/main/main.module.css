@@ -3,30 +3,11 @@
   width: 700px;
   height: 750px;
   margin: 0 auto;
-  /*overflow: hidden;*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
 }
-
-/*.backgroundCircles {*/
-/*  width: 400px;*/
-/*  height: 400px;*/
-/*  border-radius: 50%;*/
-/*  animation: spin 10.0s infinite linear;*/
-/*  background-color: #b32e63;*/
-/*  position: absolute;*/
-/*  top: 25%;*/
-/*  left: 25%;*/
-/*  z-index: 1;*/
-/*}*/
-
-/*@keyframes spin {*/
-/*  100% {*/
-/*    transform: rotate(360deg);*/
-/*  }*/
-/*}*/
 
 .button {
   width: 250px;

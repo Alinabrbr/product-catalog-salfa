@@ -8,6 +8,7 @@ import {Layout} from "../pages/layout/layout";
 import {NotFound} from "../pages/notFound/notFound";
 import {Main} from "../pages/main/main";
 import CardDetails from "../pages/cardDetails/cardDetails";
+import NewCard from "../pages/newCard/newCard";
 
 
 function App() {
@@ -40,19 +41,28 @@ function App() {
           />
 
           <Route
-            path="*"
+            path="/products/:id"
             element={
               <Layout header={true} footer={true}>
-                <NotFound/>
+                <CardDetails/>
               </Layout>
             }
           />
 
           <Route
-            path="/products/:id"
+            path="/create-product"
             element={
               <Layout header={true} footer={true}>
-                <CardDetails/>
+                <NewCard/>
+              </Layout>
+            }
+          />
+
+          <Route
+            path="*"
+            element={
+              <Layout header={true} footer={true}>
+                <NotFound/>
               </Layout>
             }
           />

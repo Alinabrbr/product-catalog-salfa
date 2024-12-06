@@ -25,7 +25,29 @@ export const getProducts = createAsyncThunk(
 const productsSlice = createSlice({
   name: 'products',
   initialState,
-  reducers: {},
+  reducers: {
+    removeProduct: (state, action) => {
+      state.products = state.products.filter((product: TProduct) => product.id !== action.payload.id);
+    },
+    addToFavoriteProduct: (state, action) => {
+      let found = state.products.filter((product: TProduct) => {
+        if (product.id === action.payload.id) {
+          return product
+        }
+      });
+
+      found[0].isFavorite = true
+    },
+    unFavoriteProduct: (state, action) => {
+      let found = state.products.filter((product: TProduct) => {
+        if (product.id === action.payload.id) {
+          return product
+        }
+      });
+
+      found[0].isFavorite = false
+    },
+  },
   extraReducers: builder => {
     builder
       .addCase(getProducts.pending.type, state => {
@@ -45,3 +67,4 @@ const productsSlice = createSlice({
 })
 
 export default productsSlice.reducer;
+export const {removeProduct, addToFavoriteProduct, unFavoriteProduct} = productsSlice.actions;

@@ -11,11 +11,7 @@
   justify-content: space-between;
   overflow: hidden;
   position: relative;
-  /*border-radius: 10px;*/
-  /*gap: 20px;*/
   color: #fff;
-  /*text-align: center;*/
-  /*padding: 10px;*/
   transition: transform 0.2s;
   font-size: 14px;
   cursor: pointer;
@@ -25,7 +21,7 @@
   transform: scale(1.05);
 }
 
-.card__cart_button {
+.card__delete_button {
   background-image: url("../../images/icon-trash-light.svg");
   position: absolute;
   width: 30px;
@@ -38,7 +34,7 @@
   cursor: pointer;
 }
 
-.card__cart_button:hover {
+.card__delete_button:hover {
   background-image: url("../../images/icon-trash-dark.svg");
   transition: 0.5s;
 }
@@ -80,6 +76,17 @@
   border: none;
   cursor: pointer;
   background-color: rgba(0,0,0, 0);
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+}
+
+.active {
+  background-image: url("../../images/icon-favorite-painted.svg");
+}
+
+.inactive {
+  background-image: url("../../images/icon-favorite.svg");
 }
 
 .card__favorite_button:hover {
