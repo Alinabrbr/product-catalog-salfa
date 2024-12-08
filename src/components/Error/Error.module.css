@@ -1,0 +1,30 @@
+.container {
+  top: 0;
+  left: -1000px;
+  max-width: 250px;
+  max-height: 76px;
+  box-sizing: border-box;
+  background-color: #d15385;
+  border-radius: 15px;
+  padding: 16px;
+  box-shadow: 0 0 30px 10px rgb(13, 17, 30);
+  transition: 1s;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.show {
+  top: 100px;
+  left: 60px;
+}
+
+.title {
+  color: #fff;
+  line-height: 1.25;
+}
+
+.text {
+  color: #b32e63;
+  line-height: 1.25;
+}

@@ -9,6 +9,7 @@
   align-items: center;
   text-align: center;
   gap: 35px;
+  padding-top: 50px;
 }
 
 .image {
@@ -37,4 +38,11 @@
 .button:hover {
   background-color: #d15385;
   box-shadow: 0 0 10px 0 #b32e63 inset, 0 0 10px 4px #b32e63;
+}
+
+@media (max-width: 670px) {
+  .container {
+    padding: 15px 15px 100px 15px;
+    font-size: 14px;
+  }
 }

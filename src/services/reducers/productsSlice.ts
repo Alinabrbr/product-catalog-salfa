@@ -47,6 +47,10 @@ const productsSlice = createSlice({
 
       found[0].isFavorite = false
     },
+    createNewCard: (state, action) => {
+      let newCard = action.payload;
+      state.products.push(newCard)
+    }
   },
   extraReducers: builder => {
     builder
@@ -67,4 +71,4 @@ const productsSlice = createSlice({
 })
 
 export default productsSlice.reducer;
-export const {removeProduct, addToFavoriteProduct, unFavoriteProduct} = productsSlice.actions;
+export const {removeProduct, addToFavoriteProduct, unFavoriteProduct, createNewCard} = productsSlice.actions;

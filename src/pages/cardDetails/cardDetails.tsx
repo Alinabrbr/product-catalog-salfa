@@ -14,7 +14,7 @@ export default function CardDetails() : JSX.Element {
 
   if (isCardsLoading || cards.length === 0) {
     return <>
-      <h2 className='text_type_main-default title'>Ingredient is loading...</h2>
+      <h2>Загрузка продуктов...</h2>
     </>
   }
 
@@ -22,7 +22,7 @@ export default function CardDetails() : JSX.Element {
     <>
       <div className={styles.container}>
         <div className={styles.infoContainer}>
-          <h2 className='text_type_main-large title'>Детали продукта</h2>
+          <h2>Детали продукта</h2>
           <img className={styles.image} src={el?.image} alt={el?.title}/>
           <p>{el?.title}</p>
           <button className={styles.button} onClick={() => navigate(-1)}>Вернуться к каталогу</button>
