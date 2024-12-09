@@ -35,6 +35,12 @@
   z-index: 1;
 }
 
+.input:focus {
+  color: #b32e63;
+  /*border: 2px solid #b32e63;*/
+  box-shadow: 0 0 10px 0 #b32e63 inset, 0 0 10px 4px #b32e63;
+}
+
 .buttonBack {
   width: 250px;
   height: 50px;
