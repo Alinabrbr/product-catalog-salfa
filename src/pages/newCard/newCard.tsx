@@ -75,7 +75,7 @@ export default function NewCard() : JSX.Element {
 
             <input  className={styles.input} placeholder={'Текст'} name={"title"} value={title} required
                    onChange={(event) => setTitle(event.target.value)}/>
-            <input className={styles.input} placeholder={'Картинка'} name={"imageURL"} value={imageURL} required
+            <input className={styles.input} placeholder={'Ссылка на картинку'} name={"imageURL"} value={imageURL} required
                    onChange={(event) => setImageURL(event.target.value)}/>
 
               <button className={styles.buttonCreate}>

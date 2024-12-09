@@ -12,4 +12,4 @@ git clone https://github.com/Alinabrbr/product-catalog-salfa.git
 
 4. Для сборки проекта выполните команду: `npm run build`
 
-5. Для запуска проекта выполните команду: `npm start`
+5. Для запуска проекта выполните команду: `npm run start`
