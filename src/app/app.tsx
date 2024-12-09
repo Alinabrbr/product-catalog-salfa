@@ -23,6 +23,7 @@ function App() {
     <div className={styles.app}>
         <Routes>
           <Route
+            index={true}
             path="/"
             element={
               <Layout header={true} footer={true}>

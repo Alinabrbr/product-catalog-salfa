@@ -52,8 +52,8 @@ export const Products = () => {
   return (
     <section className={styles.products}>
       <div className={styles.checkboxButton}>
-        <input type="checkbox" id="favorite" name="favorite" checked={isFavoriteOnly} onChange={switchFunction}/>
-        <label htmlFor="favorite">Избранные</label>
+        <input className={styles.checkbox_input} type="checkbox" id="favorite" name="favorite" checked={isFavoriteOnly} onChange={switchFunction}/>
+        <label className={styles.checkbox_label} htmlFor="favorite">Избранные</label>
       </div>
 
       <ul className={styles.products__list}>
